@@ -2,15 +2,13 @@
 
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-//import LoginPage from './pages/login'; // Import the LoginPage component from the appropriate path
-import Dashboard from './pages/Dashboard'; // Import the Dashboard component from the appropriate path
+import Employee from './pages/Employee'; // Import the Employee component from the appropriate path
 
 const App = () => {
   return (
     <View style={styles.container}>
-      {/* Render the LoginPage component */}
-     {/*<LoginPage />*/}
-     <Dashboard/>
+      {/* Render the Employee component */}
+      <Employee />
     </View>
   );
 };
